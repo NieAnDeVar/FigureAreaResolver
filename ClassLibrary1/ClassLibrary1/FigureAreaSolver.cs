@@ -30,6 +30,7 @@ namespace ClassLibrary1
         }
 
         private static Dictionary<int,Type> ParamWithTypes { get; set; }
+        
         /// <summary>
         /// Метод для вычисления площади известной фигуры
         /// </summary>

@@ -22,6 +22,10 @@ namespace ClassLibrary1.Figures
             return Area;
         }
         
+        /// <summary>
+        /// Метод проверки треугольника на то, что он прямоугольный
+        /// </summary>
+        /// <returns></returns>
         public bool IsTriangleRectangular()
         {
             IsRectangular = ((A * A + B * B == C * C) || (A * A + C * C == B * B) || (C * C + B * B == A * A));
